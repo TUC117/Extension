@@ -8,3 +8,4 @@ document.getElementById('openlinks').addEventListener('click', () => {
         chrome.tabs.create({url:link});
     });
 });
+
