@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "Change Background",
+    "description": "Changes background for fun",
+    "version": "1.0",
+    "icons": {
+      "16": "/images/icon-16.jpg",
+      "48": "/images/icon-48.jpg",
+      "128": "/images/icon-128.jpg"
+    },   
+    "content_scripts": [
+      {
+        "matches": [
+          "<all_urls>"
+        ],
+        "css" : ["main.css"]
+      }
+    ]
+  }
