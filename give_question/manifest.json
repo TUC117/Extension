@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "Give Question",
+    "version": "1.0",
+    "permissions": [
+        "storage",
+        "tabs"
+    ],
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "/icons/image-128.png",
+            "48": "/icons/image-128.png",
+            "128": "/icons/image-128.png"
+        },
+        "default_title": "Give a random leetcode Question"
+    }
+}
