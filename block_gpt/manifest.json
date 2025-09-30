@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Block ChatGPT",
+  "version": "1.0",
+  "description": "Blocks chatgpt.com when the extension is enabled",
+  "permissions": [
+    "declarativeNetRequest",
+    "declarativeNetRequestWithHostAccess"
+  ],
+  "host_permissions": [
+    "*://chatgpt.com/*",
+    "*://www.chatgpt.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Block ChatGPT"
+  }
+}
